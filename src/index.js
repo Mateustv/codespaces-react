@@ -4,14 +4,16 @@ import App from './App';
 import './index.css';
 import { ThemeProvider } from '@emotion/react';
 import theme from './theme';
+import { CssBaseline } from '@mui/material';
 
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode theme={theme}>
-    <ThemeProvider>
+  <React.StrictMode >
+    <ThemeProvider theme={theme}>
+      <CssBaseline/>
       <App />
     </ThemeProvider>
   </React.StrictMode>
