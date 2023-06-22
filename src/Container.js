@@ -16,7 +16,7 @@ export default function ContainerS(){
                             >
                             <MenuIcon />
                         </IconButton>
-                        <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+                        <Typography variant="h6" component="div" sx={{ flexGrow: 1}}>
                             News
                         </Typography>
                         <Button color="inherit">Login</Button>
@@ -32,7 +32,7 @@ export default function ContainerS(){
                     alignItems="center"
                 >
                     <Grid item sm={12}>
-                        <Typography variant='h4' component='h1'>
+                        <Typography variant='h4' component='h1' sx={{mt:10}}>
                             Ola, Fernanda!
                         </Typography>
                     </Grid>
